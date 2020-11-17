@@ -35,7 +35,7 @@
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
+                  <a class="nav-link" href="#"> </a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -90,15 +90,12 @@
               <div class="spinner-border" role="status">
                   <span class="sr-only">Loading...</span>
               </div>
-              <p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
+              <p class="text-center">AI가 당신의 강아지상을 분석중입니다.</p>
           </div>
 
             <p class="result-message"></p>
             <div id="label-container"></div>
 
-            
-
-            
             <!-- Go to www.addthis.com/dashboard to customize your tools -->
             <div class="addthis_inline_share_toolbox_my1f"></div>
                     
@@ -204,29 +201,29 @@
                 // var resultMsg
                 switch(prediction[0].className) {
                     case "차우차우":
-                        resultTitle = "귀여운 순둥이 시츄상"
-                        resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
-                        resultCeleb = "시츄상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"                    
+                        resultTitle = "따뜻한 츤데레 차우차우상"
+                        resultExplain = "첫 인상은 무서워 보이지만 알고 보면 귀여운 매력의 당신! 꼼꼼하고 섬세한 성격으로 연인을 헌신적으로 챙겨주는 당신은 연인에게 듬직한 존재! 포근한 매력에 듬직함까지 갖춘 최고의 사람!"
+                        resultCeleb = "차우차우상 연예인: 마동석, 고창석, 이혁재, 조진웅, 조세호"
                         break;
                     case "도베르만":
-                        resultTitle = "귀여운 순둥이 시츄상"
-                        resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
-                        resultCeleb = "시츄상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"                    
+                        resultTitle = "카리스마 시크한 도베르만"
+                        resultExplain = "무심한 성격에 첫인상은 나쁜 사람 같지만, 알고 보면 따뜻함이 묻어나는 당신! 시크한 매력에 선뜻 다가가지 못하지만 한번 다가가면 헤어나올 수 없는 터프한 매력을 가진 카리스마 있는 사람."
+                        resultCeleb = "도베르만상 연예인: 배정남, 이효리, 대도서관, 자이언티, 송승헌"                    
                         break;
                     case "진돗개":
-                        resultTitle = "귀여운 순둥이 시츄상"
-                        resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
-                        resultCeleb = "시츄상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"                    
+                        resultTitle = "영리한 매력쟁이 진돗개상"
+                        resultExplain = "영리하고 귀소본능이 뛰어나며 충성심이 강한 매력형이다! 무뚝뚝하나 지적인 매력으로 어디에서든 인정받는 매력을 가진 멋진 사람"
+                        resultCeleb = "진돗개 연예인: 규현, 안소희(원더걸스), 박보검, 김우빈, 이민기, 육성재(비투비), 공유"                    
                         break;
                     case "골든리트리버":
                         resultTitle = "귀여운 순둥이 시츄상"
                         resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
-                        resultCeleb = "시츄상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"                    
+                        resultCeleb = "골든리트리버상 연예인: 강다니엘, 박보영, 백현(엑소), 문채원, 박보검, 송중기"                    
                         break;
                     case "시츄":
                         resultTitle = "귀여운 순둥이 시츄상"
-                        resultExplain = "다정다감하고 귀여운 당신은 모든 사람들에게 즐거움을 주는 호감형이다! 친절하고 활발한 성격으로 어디에서도 인기폭발이며 애교와 웃음이 많아 연인에게 특히나 사랑스럽다. 당신은 애인바라기로 애인의 관심이 부족하면 시무룩해지고 외로움을 타는 모습이 마치 강아지와 똑 닮았다!"
-                        resultCeleb = "시츄상 연예인: 강다니엘, 백현(엑소), 박보검, 송중기"
+                        resultExplain = "천진난만하고 귀여운 당신은 주변 사람들에게 기쁨을 주는 행복바이러스다! 호기심이 많아 활발하며 귀엽고 순수한 외모로 연인의 보호본능을 자극한다. 존재 자체가 상큼한 당신은 특별한 애교 없이도 연인에게 너무나도 사랑스럽다!"
+                        resultCeleb = "시츄상 연예인: 김구라, 한예슬, 김국진, 정국(방탄소년단), 박지훈(워너원), 문근영"
                     break;    
 
                     default:

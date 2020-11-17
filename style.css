@@ -9,9 +9,8 @@ body {
 
   .file-upload {
     background-color: #ffffff;
-    width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15% 3%;
   }
   
   .file-upload-btn {
@@ -365,4 +364,8 @@ body {
     .ad-banner2 {
       width: 320px;
       margin: 0 auto;
+    }
+
+    #loading {
+      display: none;
     }

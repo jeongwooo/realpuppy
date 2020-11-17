@@ -70,7 +70,7 @@
    
 
         <script class="jsbin" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <div class="container file-upload">
+        <div class="mt-3 container file-upload">
               
           <div class="image-upload-wrap">
             <input class="file-upload-input" type='file' onchange="readURL(this);" accept="image/*" />
@@ -81,6 +81,14 @@
           </div>
           <div class="file-upload-content">
             <img class="file-upload-image" id="face-image" src="#" alt="your image" />
+
+          <div id="loading" class="animated bounce">
+              <div class="spinner-border" role="status">
+                  <span class="sr-only">Loading...</span>
+              </div>
+              <p class="text-center">AI가 당신의 동물상을 분석중입니다.</p>
+          </div>
+
             <p class="result-message"></p>
             <div id="label-container"></div>
 
@@ -102,15 +110,14 @@
         </div>
 
         <div class="ad-banner2">
-            <ins class="kakao_ad_area" style="display:none;" 
-            data-ad-unit    = "DAN-6bT0xGT4B4GdRe5d" 
-            data-ad-width   = "320" 
-            data-ad-height  = "50"></ins> 
+        <ins class="kakao_ad_area" style="display:none;" 
+          data-ad-unit    = "DAN-6bT0xGT4B4GdRe5d" 
+          data-ad-width   = "320" 
+          data-ad-height  = "50"></ins> 
         </div>
-              
+               
           <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
 
-        <div id="webcam-container"></div>
         
         <footer class="footer pt-5 container d-flex justify-content-center">
           <div>
@@ -172,10 +179,6 @@
                 const modelURL = URL + "model.json";
                 const metadataURL = URL + "metadata.json";
         
-                // load the model and metadata
-                // Refer to tmImage.loadFromFiles() in the API to support files from a file picker
-                // or files from your local hard drive
-                // Note: the pose library adds "tmImage" object to your window (window.tmImage)
                 model = await tmImage.load(modelURL, metadataURL);
                 maxPredictions = model.getTotalClasses();           
                 labelContainer = document.getElementById("label-container");
@@ -184,8 +187,7 @@
                 }
             }
                 
-            // run the webcam image through the image model
-            async function predict() {
+        async function predict() {
                 // predict can take in an image, video or canvas html element
                 var image =  document.getElementById("face-image")
                 const prediction = await model.predict(image, false);

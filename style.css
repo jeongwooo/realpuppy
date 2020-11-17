@@ -170,6 +170,11 @@ body {
     background-color: #f6f7fa;
 }
 
+ #loading {
+      display: none;
+    }
+
+
 .image-upload-wrap {
     margin: 0 auto;
     position: relative;
@@ -366,6 +371,4 @@ body {
       margin: 0 auto;
     }
 
-    #loading {
-      display: none;
-    }
+   

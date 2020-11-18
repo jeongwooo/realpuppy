@@ -386,21 +386,6 @@ body {
     -webkit-animation:spin 1000ms infinite linear;
         
    }
-   @-webkit-keyframes spin { 100%{ -webkit-transform: rotate(360deg); }
+    @-webkit-keyframes spin { 10%{ -webkit-transform: rotate(360deg); }}
        
-     
-   #loading {
-  animation: disapear 1s;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fade-out {
-  from {
-    opacity: 1;
-
-  }
-  to {
-    opacity: 0;
-  }
-}
-    
+   

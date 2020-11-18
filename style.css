@@ -258,12 +258,7 @@ body {
   }
 
 
-    
-  #loading {
-  display: none;
-  }
-
-
+   
 
   .bar-container {
     height: 2.7rem;
@@ -360,6 +355,7 @@ body {
   }
 
 
+
     .animal-label {
         width: 20%;
         text-align: left;
@@ -385,5 +381,7 @@ body {
       margin: 0 auto;
     }
 
-   
+/*    #loading {
+  display: none;
+  } */
 

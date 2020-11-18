@@ -118,7 +118,9 @@ body {
     transition: all .2s ease;
   }
 
-  
+  #loading {
+      display: none;
+      }
 
 
   .nav-distance {

@@ -383,7 +383,7 @@ body {
 
 
     .animated bounce {
-    -webkit-animation:spin 1000ms infinite linear;
+    -webkit-animation:spin 1000ms 2s linear;
         
    }
     @-webkit-keyframes spin { 10%{ -webkit-transform: rotate(360deg); }

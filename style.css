@@ -383,6 +383,7 @@ body {
 
    #loading {
 -webkit-animation:spin 1000ms infinite linear;
+       display: none;       
   }
   
 

@@ -383,7 +383,8 @@ body {
 
 
     #loading {
--webkit-animation:spin 1000ms infinite linear;
+    -webkit-animation:spin 1000ms infinite linear;
+    animation-duration: 2000ms;
   }
    @-webkit-keyframes spin { 100%{ -webkit-transform: rotate(360deg); }
     

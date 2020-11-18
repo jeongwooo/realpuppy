@@ -118,7 +118,8 @@ body {
     transition: all .2s ease;
   }
 
- 
+  
+
 
   .nav-distance {
       padding: 2.1% 7.7%;
@@ -257,7 +258,10 @@ body {
   }
 
 
-   
+    
+  
+
+
 
   .bar-container {
     height: 2.7rem;
@@ -354,7 +358,6 @@ body {
   }
 
 
-
     .animal-label {
         width: 20%;
         text-align: left;
@@ -380,33 +383,36 @@ body {
       margin: 0 auto;
     }
 
+    .ad-banner3 {
+      width: 320px;
+      margin: 0 auto;
+     }
+   
     #loading {
-        -moz-animation: cssAnimation 0s ease-in 3s forwards;
-        /* Firefox */
-        -webkit-animation: cssAnimation 0s ease-in 3s forwards;
-        /* Safari and Chrome */
-        -o-animation: cssAnimation 0s ease-in 3s forwards;
-        /* Opera */
-        animation: cssAnimation 0s ease-in 3s forwards;
-        -webkit-animation-fill-mode: forwards;
-        animation-fill-mode: forwards;
-    }
+      -moz-animation: cssAnimation 0s ease-in 3s forwards;
+      /* Firefox */
+      -webkit-animation: cssAnimation 0s ease-in 3s forwards;
+      /* Safari and Chrome */
+      -o-animation: cssAnimation 0s ease-in 3s forwards;
+      /* Opera */
+      animation: cssAnimation 0s ease-in 3s forwards;
+      -webkit-animation-fill-mode: forwards;
+      animation-fill-mode: forwards;
+  }
 
-    @keyframes cssAnimation {
-        to {
-            width:0;
-            height:0;
-            overflow:hidden;
-        }
-    }
-    @-webkit-keyframes cssAnimation {
-        to {
-            width:0;
-            height:0;
-        visibility:hidden;
-    }
+  @keyframes cssAnimation {
+      to {
+          width:0;
+          height:0;
+          overflow:hidden;
+      }
+  }
+  @-webkit-keyframes cssAnimation {
+      to {
+          width:0;
+          height:0;
+      visibility:hidden;
+  }
 }
 
-
-
-   
+      

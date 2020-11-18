@@ -382,7 +382,7 @@ body {
     }
 
 
-    #loading {
+    .animated bounce {
     -webkit-animation:spin 1000ms infinite linear;
         
    }

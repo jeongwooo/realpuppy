@@ -390,7 +390,7 @@ body {
        
      
    #loading {
-  animation: fade-out 1s;
+  animation: disapear 1s;
   animation-fill-mode: forwards;
 }
 

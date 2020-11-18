@@ -382,7 +382,7 @@ body {
     }
 
    #loading {
--webkit-animation:spin 10ms infinite linear;
+-webkit-animation:spin 2s infinite linear;
   }
   
 

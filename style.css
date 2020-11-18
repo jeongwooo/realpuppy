@@ -259,7 +259,9 @@ body {
 
 
     
-  
+  #loading {
+  display: none;
+  }
 
 
 
@@ -384,6 +386,4 @@ body {
     }
 
    
-/*     #loading {
-      display: none;
-      } */
+

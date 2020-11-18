@@ -381,7 +381,9 @@ body {
       margin: 0 auto;
     }
 
-/*    #loading {
-  display: none;
-  } */
+   #loading {
+-webkit-animation:spin 1000ms infinite linear;
+  }
+  
 
+    @-webkit-keyframes spin { 100%{ -webkit-transform: rotate(360deg); }

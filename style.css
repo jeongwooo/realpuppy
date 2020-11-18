@@ -387,6 +387,11 @@ body {
       width: 320px;
       margin: 0 auto;
      }
+
+     .ad-banner4 {
+      width: 320px;
+      margin: 0 auto;
+     }
    
     #loading {
       -moz-animation: cssAnimation 0s ease-in 3s forwards;

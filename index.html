@@ -79,42 +79,6 @@
           </nav>
 
 
-
-          <section class="container d-flex flex-column justify-content-center align-items-center">
-            <span class="select-language">Language</span>
-            <select onchange="changeLanguage(this)" class="custom-select col-8">
-                <option value="ko" lang="ko">한국어</option>
-                <option value="en" lang="en">English</option>
-                <option value="es" lang="es">español</option>
-                <option value="ja" lang="ja">日本語</option>
-                <option value="zh" lang="zh">中文</option>
-                <option value="vi" lang="vi">tiếng Việt</option>
-                <option value="id" lang="id">Bahasa Indonesia</option>
-            </select>
-      </section>
-
-        <script>
-                var ua = navigator.userAgent.toLowerCase();
-                function changeLanguage(lang) {
-                    if( ( navigator.userAgent.indexOf('Mac OS') > 0 && navigator.userAgent.indexOf('Safari') <= 0 ) || ( ( navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('wv)') > 0 ) ) ){
-                        if (ua.match('android') != null) {
-                            window.open("googlechrome://navigate?url=animalface.site/"+lang.value+"/index.html"); //android
-                        } else if (ua.indexOf("iphone")>-1||ua.indexOf("ipad")>-1||ua.indexOf("ipod")>-1) {
-                            window.location.href = "https://mypuppyface.netlify.app/"+lang.value+"/index.html";
-                        } else {
-                            window.location.href = "https://mypuppyface.netlify.app/"+lang.value+"/index.html";
-                        }
-                    } else {
-                        window.location.href = "https://mypuppyface.netlify.app/"+lang.value+"/index.html";
-                    }
-                }
-        </script>
-
-
-
-
-
-
           <section class="section">
               <h1 class="title"> 
                   인공지능 강아지상
